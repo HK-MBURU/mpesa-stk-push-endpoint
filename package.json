@@ -1,0 +1,19 @@
+{
+  "name": "hk-lipa-na-mpesa",
+  "version": "1.0.0",
+  "description": "This is stk push for mpesa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HK MBURU",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "ngrok": "^5.0.0-beta.2",
+    "request": "^2.88.2"
+  },
+  "type": "module"
+}
