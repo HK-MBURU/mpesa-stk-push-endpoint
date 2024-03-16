@@ -41,7 +41,7 @@ export const initiateSTKPush = async(req, res) => {
                     "PartyB": process.env.BUSINESS_SHORT_CODE,
                     "PhoneNumber": phone,
                     "CallBackURL": `${callback_url}/api/stkPushCallback/${Order_ID}`,
-                    "AccountReference": "Wamaitha Online Shop",
+                    "AccountReference": "HK FAST SHOP",
                     "TransactionDesc": "Paid online"
                 }
             },
